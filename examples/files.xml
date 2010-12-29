@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<directory name="my-project">
+  <file>log4j.log</file>
+  <file>pom.xml</file>
+  <directory name="src">
+    <directory name="main">
+      <directory name="java">
+        <directory name="example">
+          <file>HomePage.html</file>
+          <file>HomePage.java</file>
+          <directory name="models">
+            <file>ProductModel.java</file>
+          </directory>
+          <directory name="properties">
+            <file>ProductsPage.html</file>
+            <file>ProductsPage.java</file>
+            <directory name="components">
+              <file>ProductDetails.html</file>
+              <file>ProductDetails.java</file>
+              <file>ProductsList.html</file>
+              <file>ProductsList.java</file>
+            </directory>
+          </directory>
+        </directory>
+      </directory>
+      <directory name="resources">
+        <file>log4j.properties</file>
+      </directory>
+      <directory name="webapp">
+        <directory name="WEB-INF">
+          <file>geronimo-web.xml</file>
+          <file>web.xml</file>
+        </directory>
+      </directory>
+    </directory>
+    <directory name="test">
+      <directory name="java">
+        <directory name="example"/>
+      </directory>
+    </directory>
+  </directory>
+</directory>

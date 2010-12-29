@@ -1,0 +1,16 @@
+This utility generates an xml tree representation of the given directory. It works a lot like the linux "tree" utility, but gives and xml output.
+Usage:
+
+xmltree PATH > directories.xml
+
+The generated xml file can be transformed into an SVG file.
+
+xsltproc svg-sheet.xsl directories.xml  > directories.svg
+
+to get a nicely formatted svg file:
+
+xsltproc svg-sheet.xsl directories.xml  | xmllint --format - > directories.svg
+
+
+Version 0.1
+
